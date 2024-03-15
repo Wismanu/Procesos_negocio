@@ -13,7 +13,7 @@ public class UserController {
     private UserService userService;
     @GetMapping("user/{id}")
     public User getUserById(){
-        return userService.gerUserById(1L);
+        return userService.getUserById(1L);
     }
 
 }

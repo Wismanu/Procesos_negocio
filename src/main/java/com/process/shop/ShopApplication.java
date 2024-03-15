@@ -7,17 +7,13 @@ import org.springframework.web.bind.annotation.RequestMapping;
 import org.springframework.web.bind.annotation.RestController;
 
 @SpringBootApplication
-@RestController
-@RequestMapping("/")
+//@RestController
+//@RequestMapping("/")
 public class ShopApplication {
 
 	public static void main(String[] args) {
 		SpringApplication.run(ShopApplication.class, args);
 	}
-	@GetMapping("hello")
-	public static String helloWorld(){
-		System.out.println("Hola Mundo");
-		return	"Hello World";
-	}
+
 
 }
